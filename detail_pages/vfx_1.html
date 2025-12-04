@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FX Portfolio1</title>
+  <style>
+  @media (max-width: 768px) {
+  .hide-on-mobile {
+    display: none;
+  }
+}
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background: #000;
+      color: #f0f0f0;
+      line-height: 1.7;
+      padding: 60px 20px;
+    }
+    .nav {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      font-size: 0.9rem;
+      z-index: 1000;
+    }
+    .nav a {
+      margin-left: 15px;
+      text-decoration: none;
+      color: #888;
+    }
+    .nav a:hover {
+      color: #fff;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+      color: #fff;
+    }
+    .meta {
+      font-size: 0.95rem;
+      color: #999;
+      font-style: italic;
+      margin-bottom: 30px;
+    }
+    .video-container {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      margin-bottom: 30px;
+    }
+    .video-container iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      border-radius: 8px;
+    }
+    .description {
+      font-size: 1rem;
+      color: #ccc;
+      margin-bottom: 50px;
+    }
+    .image-text-block {
+      display: flex;
+      flex-direction: row;
+      gap: 30px;
+      align-items: flex-start;
+      margin-bottom: 60px;
+      flex-wrap: wrap;
+    }
+    .image-text-block img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 8px;
+    }
+    .image-text-block .text {
+      flex: 1;
+      min-width: 250px;
+      font-size: 0.95rem;
+      color: #aaa;
+    }
+    nav.pagination {
+      margin-top: 60px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.95rem;
+    }
+    nav.pagination a {
+      color: #888;
+      text-decoration: none;
+    }
+    nav.pagination a:hover {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html#film">Film</a>
+    <a href="../index.html#interactive">Interactive Art</a>
+    <a href="../index.html#media">Media Art</a>
+    <a href="../index.html#xr">XR</a>
+    <a href="../index.html#vfx">3D/VFX</a>
+    <a href="../index.html#about" class="hide-on-mobile">About</a>
+    <a href="../index.html#news" class="hide-on-mobile">News</a>
+  </div>
+
+  <div class="container">
+    <h1>FX Portfolio1</h1>
+    <div class="meta">2025 · 3D/VFX · FX Portfolio1</div>
+
+    <div class="video-container">
+      <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1049138931?h=6eb6653ba5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="JonghoonAhn_FXPortfolio"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+    </div>
+
+    <div class="description">
+      <p>This FX portfolio piece showcases work built using digital humans, fluid and smoke simulations, and real-time visual effects.
+<br><br>
+Developed with Maya, Houdini, Unity, and Unreal Engine, the project demonstrates advanced techniques in character-driven VFX, procedural animation, and physics-based simulation.
+<br><br>
+It highlights the seamless integration of cinematic and interactive pipelines across real-time and offline rendering environments.</p>
+    </div>
+
+  <!--  <div class="image-text-block">
+      <img src="../images/vfx1.jpg" alt="3D/VFX Project 1 Still">
+      <div class="text">
+        <p>This still captures a pivotal moment where the project’s tone and theme converge. It reveals the emotional depth and visual language unique to this work.</p>
+      </div>
+    </div>
+-->
+    <nav class="pagination">
+      <span></span>
+      <a href="../index.html">Back to Portfolio</a>
+      <!-- <a href="vfx_2.html">Next →</a> -->
+    </nav>
+  </div>
+</body>
+</html>

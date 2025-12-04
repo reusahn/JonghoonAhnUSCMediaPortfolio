@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Film Project 9</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      background: #000;
+      color: #f0f0f0;
+      line-height: 1.7;
+      padding: 60px 20px;
+    }
+    .nav {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      font-size: 0.9rem;
+      z-index: 1000;
+    }
+    .nav a {
+      margin-left: 15px;
+      text-decoration: none;
+      color: #888;
+    }
+    .nav a:hover {
+      color: #fff;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+      color: #fff;
+    }
+    .meta {
+      font-size: 0.95rem;
+      color: #999;
+      font-style: italic;
+      margin-bottom: 30px;
+    }
+    .video-container {
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      margin-bottom: 30px;
+    }
+    .video-container iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      border-radius: 8px;
+    }
+    .description {
+      font-size: 1rem;
+      color: #ccc;
+      margin-bottom: 50px;
+    }
+    .image-text-block {
+      display: flex;
+      flex-direction: row;
+      gap: 30px;
+      align-items: flex-start;
+      margin-bottom: 60px;
+      flex-wrap: wrap;
+    }
+    .image-text-block img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 8px;
+    }
+    .image-text-block .text {
+      flex: 1;
+      min-width: 250px;
+      font-size: 0.95rem;
+      color: #aaa;
+    }
+    nav.pagination {
+      margin-top: 60px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.95rem;
+    }
+    nav.pagination a {
+      color: #888;
+      text-decoration: none;
+    }
+    nav.pagination a:hover {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <a href="../index.html#film">Film</a>
+    <a href="../index.html#interactive">Interactive Art</a>
+    <a href="../index.html#media">Media Art</a>
+    <a href="../index.html#xr">XR</a>
+    <a href="../index.html#vfx">3D/VFX</a>
+    <a href="../index.html#about">About</a>
+    <a href="../index.html#news">News</a>
+  </div>
+
+  <div class="container">
+    <h1>Film Project 9</h1>
+    <div class="meta">2025 · Film · Duration Varies</div>
+
+    <div class="video-container">
+      <iframe src="https://player.vimeo.com/video/123456789" allowfullscreen></iframe>
+    </div>
+
+    <div class="description">
+      <p>This project explores themes related to film. It invites reflection through minimalist expression and layered imagery, touching on emotion and perception.</p>
+    </div>
+
+    <div class="image-text-block">
+      <img src="../images/film9.jpg" alt="Film Project 9 Still">
+      <div class="text">
+        <p>This still captures a pivotal moment where the project’s tone and theme converge. It reveals the emotional depth and visual language unique to this work.</p>
+      </div>
+    </div>
+
+    <nav class="pagination">
+      <a href="film_8.html">← Previous</a>
+      <a href="../index.html">Back to Portfolio</a>
+      <a href="film_10.html">Next →</a>
+    </nav>
+  </div>
+</body>
+</html>
