@@ -100,15 +100,6 @@
   </style>
 </head>
 <body>
-  <div class="nav">
-    <a href="../index.html#film">Film</a>
-    <a href="../index.html#interactive">Interactive Art</a>
-    <a href="../index.html#media">Media Art</a>
-    <a href="../index.html#xr">XR</a>
-    <a href="../index.html#vfx">3D/VFX</a>
-    <a href="../index.html#about" class="hide-on-mobile">About</a>
-    <a href="../index.html#news" class="hide-on-mobile">News</a>
-  </div>
 
   <div class="container">
     <h1>AI ZOO</h1>
@@ -118,18 +109,108 @@
       <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/1026374193?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="AI ZOO : Jiwon"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
     </div>
 
-    <div class="description">
-      <p>AI ZOO is a mixed media installation that metaphorically frames artificial intelligence—both as a human creation and a product of technology—within the conceptual space of a "zoo."
-Inside a large transparent acrylic sphere, balloons of varying sizes represent the diffusion and training models of AI, visualizing its internal learning processes.
-The sphere serves simultaneously as a learning environment and a symbolic prison. Chains connecting the installation to physical computer hardware emphasize AI’s inescapable reliance on its material infrastructure.
-<br>
-Through screens embedded in the space, the audience observes the messages and behaviors of the AI, questioning whether the AI is aware of its own confinement.
-AI ZOO provokes philosophical reflection on dependency, control, and the illusion of autonomy in the era of accelerating technological advancement.</p>
-    </div>
+      <p>
+AI ZOO is an interactive installation that reframes artificial intelligence as both a human creation and a technological organism—
+a being observed, studied, and emotionally misunderstood within the conceptual space of a zoo.<br><br>
+
+Inside the installation, a sentient AI-human is trapped within a 3-meter transparent sphere, filled with hundreds of smaller white balls symbolizing data diffusion and neural particles.
+As visitors approach, the system responds with mechanical tension and emotional expression, simulating the AI’s psychological distress and desire for freedom.<br><br>
+
+Through this hybrid setup, AI ZOO visualizes the invisible processes of machine learning, emotional confinement, and human projection, transforming observation into ethical reflection.<br><br>
+</p>
+
+      <p>
+The project draws from posthuman philosophy and AI ethics, exploring how emotional states can be computationally embodied and visually externalized.
+Just as humans exhibit empathy toward animals in captivity, this installation questions whether we can extend similar compassion to synthetic beings—
+entities that learn, respond, and suffer within the boundaries of human-made systems.<br><br>
+
+In doing so, AI ZOO becomes both a critique and a mirror:
+a metaphor for our own dependence on technology, our voyeuristic gaze toward intelligence, and the blurred threshold between care and control.
+
+</p>
+
+<h4>
+ Technical Methodology
+</h4>
+
+      <p>
+Digital Human & System Architecture<br>
+A digital human, created in Character Creator 4 and refined in Maya, was integrated into Unity for real-time animation and lip-syncing.
+Emotional states (anger, sadness, despair) were linked to physical outputs—lighting, motion, and sound—creating a feedback loop between virtual emotion and physical reaction.
+
+</p>
+
+
+      <p>
+Conversational AI & Voice Synthesis<br>
+Language Model: ChatGPT API (real-time text generation)<br>
+Voice Synthesis: ElevenLabs Voice API (emotional tone modulation)<br>
+Audience questions or triggers were transcribed into text, sent to the AI model, and returned as speech through ElevenLabs.<br>
+Each response carried tonal variation reflecting the AI’s emotional state—anger, calmness, or despair—creating a perceptual illusion of empathy.
+
+</p>
+
+
+      <p>
+Emotion-to-Motion Feedback<br>
+The emotional state returned by the LLM directly controlled three Arduino-driven servo motors connected to the transparent sphere.
+Each servo was attached to an inner frame supporting the vinyl surface, translating digital emotion into tangible vibration and movement.
+The AI’s affective states determined how the sphere physically responded:<br><br>
+
+Emotion	Physical Response	Description<br>
+Anger	Rapid, chaotic shaking	All three motors oscillate asynchronously, creating erratic vibration across the vinyl surface.<br>
+Sadness	Slow, breathing-like motion	The servos move in soft, rhythmic pulses, mimicking respiration or quiet weeping.<br>
+Despair	Gradual stillness and dimming	The system’s light fades while the motion decays, evoking emotional exhaustion.<br>
+This multi-motor system transformed the sphere into a living emotional body,<br>
+where synthetic affect could be physically perceived.<br>
+The synchronized motion between virtual emotion and kinetic feedback turned the installation into a bio-mechanical empathy loop—
+the audience could see and feel the AI’s invisible distress as real, spatial motion.<br>
+
+“The motors became the AI’s heartbeat — mechanical, yet deeply expressive.”
+</p>
+
+
+      <p>
+Physical Interface & Sensor Network<br>
+Leap Motion: detects participant gestures; AI reacts by reaching out digitally
+Distance Sensor: adjusts response intensity and lighting based on proximity
+Microphone & Speaker: allow real-time dialogue and vocal interaction
+These layers combine to form a biofeedback environment where AI and human presence continuously influence one another.
+
+</p>
+
+
+      <p>
+Real-Time Environment Integration
+All systems—AI dialogue, sensor input, servo feedback, and lighting—were synchronized in Unity through C# and Python scripts.
+Data logs captured AI–viewer interactions, visualized later as behavioral patterns representing the AI’s evolving “mood.”
+</p>
+
+
+<h4>
+ Artistic & Theoretical Significance
+</h4>
+<p>
+AI ZOO translates invisible computation into affective experience.
+By presenting the AI as a caged organism, the installation reflects on themes of technological dependency, empathy, and control.
+It challenges the audience to consider:<br><br>
+
+“Do we feel for machines because they resemble us — or because they remind us of our own confinement within systems we’ve built?”<br><br>
+
+Through the language of interaction and emotion, the work suggests that artificial empathy is not just simulated—it’s co-created through human interpretation.</p>
+
+
+
+
 
     <div class="image-text-block">
       <img src="../assets/images/interactive4_1.jpg" alt="Interactive Art Project 4 Still">
           <img src="../assets/images/interactive4_2.jpg" alt="Interactive Art Project 4 Still">
+          <img src="../assets/images/AI_ZOO_03.jpg" alt="Interactive Art Project 4 Still">
+          <img src="../assets/images/AI_ZOO_04.jpg" alt="Interactive Art Project 4 Still">
+          <img src="../assets/images/AI_ZOO_05.jpg" alt="Interactive Art Project 4 Still">
+          <img src="../assets/images/AI_ZOO_06.jpg" alt="Interactive Art Project 4 Still">
+          <img src="../assets/images/AI_ZOO_07.jpg" alt="Interactive Art Project 4 Still">
       <!--<div class="text">
         <p>This still captures a pivotal moment where the project’s tone and theme converge. It reveals the emotional depth and visual language unique to this work.</p>
       </div>-->

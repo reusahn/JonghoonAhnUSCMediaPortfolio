@@ -100,15 +100,7 @@
   </style>
 </head>
 <body>
-  <div class="nav">
-    <a href="../index.html#film">Film</a>
-    <a href="../index.html#interactive">Interactive Art</a>
-    <a href="../index.html#media">Media Art</a>
-    <a href="../index.html#xr">XR</a>
-    <a href="../index.html#vfx">3D/VFX</a>
-    <a href="../index.html#about" class="hide-on-mobile">About</a>
-    <a href="../index.html#news" class="hide-on-mobile">News</a>
-  </div>
+
 
   <div class="container">
     <h1>To Eternity</h1>
@@ -119,11 +111,65 @@
     </div>
 
     <div class="description">
-      <p>To Eternity is an interactive media art installation commemorating the Gwangju Democratization Movement of May 18, 1980.
-Archival photographs taken during the 1980 uprising are algorithmically mosaicked in real time over the viewer’s image.
-As participants adopt a gesture of offering—such as placing flowers—the system recognizes the movement and completes the visual composition.
-The result is a digital altar that transforms silent remembrance into shared visual memory, allowing audiences to engage in a contemporary ritual of tribute through interaction and presence.
+      <p>To Eternity is an interactive media installation commemorating the Gwangju Democratization Movement (May 18, 1980).
+Using real-time body recognition, the system transforms the audience’s silhouette into a living mosaic of historical photographs collected from the uprising.
+</p>
+<p>
+When a participant performs a flower-offering gesture and sustains it for more than five seconds,
+the system recognizes the motion and triggers an automatic capture —
+overlaying 300 archival images across the participant’s silhouette to create a digital memorial portrait.
 
+Through this embodied act of remembrance, the work converts silent mourning into a collective ritual,
+where technology mediates empathy, presence, and history.
+<p>
+When a participant performs a flower-offering gesture and sustains it for more than five seconds,
+the system recognizes the motion and triggers an automatic capture —
+overlaying 300 archival images across the participant’s silhouette to create a digital memorial portrait.
+
+Through this embodied act of remembrance, the work converts silent mourning into a collective ritual,
+where technology mediates empathy, presence, and history.
+
+</p>
+</p><br>
+<h4>
+Engine: Unity<br>
+Language: C#<br>
+Hardware: Azure Kinect · Depth Camera · Projection Screen · PC (NVIDIA RTX 3080)<br>
+Software: OpenCV · TouchDesigner<br>
+Dataset: ~300 archival photographs (May 18 Gwangju Democratization Movement)
+</h4>
+<br>
+<h4>
+Pipeline:
+</h4>
+<p>
+Depth & Skeleton Tracking<br>
+Captured real-time depth and body index maps using Azure Kinect SDK.<br>
+Extracted joint coordinates to detect upper-body pose patterns.<br><br>
+Gesture Recognition System<br>
+Defined a “flower offering” gesture via upper-arm and hand position vectors.<br>
+Pose classified as offering when confidence exceeded 86% for >5 seconds.<br>
+Gesture event triggered photo capture and mosaic generation.<br><br>
+Archival Image Integration<br>
+Preprocessed ~300 high-resolution documentary images (licensed from participating photojournalists).<br>
+Used custom mosaic algorithm in Unity to layer archival photos over the live silhouette in real time.<br><br>
+Shader Composition<br>
+Implemented GPU-based blending shader controlling transparency, luminance mapping, and time-based fade-in.<br>
+Combined Unity and TouchDesigner pipeline for synchronized projection and visual fading.<br><br>
+Projection Display<br>
+Final composite projected onto a large wall surface, creating a memorial altar visualization that responded to audience participation.<br>
+</p>
+
+<h4><br>
+Artistic & Research Focus
+</h4>
+<p>
+The project transforms commemoration into participation, exploring how technology can preserve and reinterpret historical empathy.
+Through gesture, time, and presence, To Eternity bridges personal mourning and collective memory.
+
+By allowing the audience’s body to become the medium of remembrance,
+it redefines memorial experience as a collaborative and living archive,
+where the act of offering flowers becomes a generative visualization of solidarity and resilience.
 </p>
     </div>
 
