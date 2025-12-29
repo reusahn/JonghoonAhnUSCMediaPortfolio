@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>JANNABI Choi Jung-hoon AI Human Research Project</title>
+  <title>Choi Jung-hoon AI Human Research Project</title>
   <style>
   @media (max-width: 768px) {
-  .hide-on-mobile {
-    display: none;
+    .hide-on-mobile {
+      display: none;
+    }
   }
-}
     body {
       margin: 0;
       font-family: 'Helvetica Neue', sans-serif;
@@ -111,32 +111,102 @@
   </div>
 
   <div class="container">
-    <h1>Choi Jung-hoon AI Human Research Project</h1>
-    <div class="meta">2024 · Interactive Art · California Institute of the Arts </div>
+    <h1>Choi Jung-hoon AI Human Research Project (JANNABI AI Digital Human)</h1>
+    <div class="meta">2024 · Digital Human Research · California Institute of the Arts</div>
 
+    <!-- Video -->
     <div class="video-container">
-      <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/933305770?h=b3cef8f513&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="최정훈 ai"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+      <iframe src="https://player.vimeo.com/video/933305770?h=b3cef8f513" 
+              allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share">
+      </iframe>
     </div>
 
     <div class="description">
-      <p>This research-based installation explores the reconstruction of Choi Jung-hoon, the lead vocalist of the Korean band JANNABI, as an AI-generated digital human.
-Utilizing large language models (LLMs), the system is trained on Choi’s voice, personality traits, appearance, and public data. These elements are integrated into a real-time digital avatar that visually resembles him.
-Through a microphone interface, the AI human engages in live conversations with the audience, responding in Choi’s tone and mannerisms.
-The project questions the boundaries between identity, performance, and technological replication in the era of generative AI.</p>
-    </div>
 
-    <div class="image-text-block">
-      <img src="../assets/images/interactive9_1.jpg" alt="Interactive Art Project 9 Still">
-        <img src="../assets/images/interactive9_2.jpg" alt="Interactive Art Project 9 Still">
-      <!--<div class="text">
-        <p>This still captures a pivotal moment where the project’s tone and theme converge. It reveals the emotional depth and visual language unique to this work.</p>
-      </div>-->
+      <h4>Overview</h4>
+      <p>
+      Choi Jung-hoon AI Human reconstructs the lead vocalist of JANNABI as a generative, interactive AI digital human.
+      The project examines how identity, emotion, and authorship can be algorithmically simulated, transforming a figure of admiration into computational presence.
+      Through real-time speech, gesture response, and persona-driven interaction, the AI explores the blurry line between replication and authenticity.
+      </p>
+
+      <h4>Research Context</h4>
+      <p>
+      In an era where fandom, data, and simulation overlap, the project asks:
+      <i>“When emotion becomes code, can affection survive imitation?”</i><br><br>
+      By reconstructing an admired artist, the work reframes parasocial devotion as a research methodology.
+      The digital performer learns, speaks, and responds, turning fandom into feedback and making visible the emotional projection that fuels AI-human intimacy.
+      </p>
+
+      <h4>Digital Human Construction</h4>
+      <p>
+      High-resolution portrait input → Character Creator 4 Headshot → ZBrush refinement → Maya rigging and UV workflow → Unity real-time rendering.
+      </p>
+      <div class="image-text-block">
+        <img src="../assets/images/ChoiJungHoon_AI_01.jpg" />
+        <img src="../assets/images/ChoiJungHoon_AI_02.jpg" />
+      </div>
+
+      <h4>Voice Cloning (ElevenLabs)</h4>
+      <p>
+      Interview and performance samples were processed through ElevenLabs Instant Voice Cloning,
+      enabling spontaneous speech generation that mimics Choi Jung-hoon’s tone, color, and cadence.
+      Real-time lip-sync was achieved through blendshape animation in Unity.
+      </p>
+
+      <h4>Conversational AI Integration</h4>
+      <p>
+      A GPT-based persona model was embedded into Unity.  
+      Audience speech → transcription → GPT response → ElevenLabs TTS → real-time facial animation.<br>
+      A coroutine-based pipeline ensured continuous, natural conversational flow.
+      </p>
+
+      <h4>Sensor-Based Interaction (Azure Kinect)</h4>
+      <p>
+      Azure Kinect provided body tracking, gesture detection, and depth information, allowing the AI human to react physically to visitors—leaning, nodding, and mirroring engagement.
+      Audience forms were rendered as 3D point clouds, visualizing how AI perceives human presence.
+      </p>
+
+      <h4>Real-Time Unity Integration</h4>
+      <p>
+      All systems—speech, gesture, persona, emotional response, shaders—were unified in Unity’s real-time rendering pipeline,
+      emphasizing digital fragility and emotional realism.
+      </p>
+
+      <div class="image-text-block">
+        <img src="../assets/images/ChoiJungHoon_AI_03.jpg" />
+        <!-- <img src="./media/ChoiJungHoon_AI_04.jpg" />
+        <img src="../assets/images/ChoiJungHoon_AI_05.jpg" />-->
+        <img src="../assets/images/ChoiJungHoon_AI_06.jpg" />
+        <img src="../assets/images/ChoiJungHoon_AI_07.jpg" />
+        <img src="../assets/images/ChoiJungHoon_AI_08.jpg" />
+      </div>
+
+      <h4>Artistic & Theoretical Focus</h4>
+      <p>
+      The project explores AI-mediated affection and the co-construction of identity in machine-human systems.
+      By merging machine learning, motion capture, and emotional projection, the digital Choi Jung-hoon becomes both a subject of empathy and a simulation of it.
+      This work rethinks authorship and digital intimacy in the era of computational performers.
+      </p>
+
+      <h4>Keywords</h4>
+      <p>
+      #digital-human #ai-persona #voice-cloning #real-time-interaction #cyborg-psychology
+      </p>
+
+      <h4>Credits</h4>
+      <p>
+      Principal Investigator / Technical Director: <b>Jonghoon Ahn</b><br>
+      Institution: California Institute of the Arts<br>
+      Tools: Unity, Character Creator 4, ZBrush, Maya, ElevenLabs, Azure Kinect, GPT API
+      </p>
+
     </div>
 
     <nav class="pagination">
-      <a href="interactive_8.html">← Previous</a>
+      <a href="interactive_1.html">← Previous</a>
       <a href="../index.html">Back to Portfolio</a>
-     <a href="interactive_10.html">Next →</a>
+      <a href="interactive_3.html">Next →</a>
     </nav>
   </div>
 </body>
