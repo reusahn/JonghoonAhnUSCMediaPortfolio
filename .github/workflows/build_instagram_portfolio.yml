@@ -1,0 +1,40 @@
+name: Build Instagram Portfolio Assets
+
+on:
+  push:
+    paths:
+      - 'tools/instagram_manifest.json'
+      - 'tools/build_instagram_posts.py'
+      - '.github/workflows/build_instagram_portfolio.yml'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Pillow
+        run: pip install pillow
+
+      - name: Build Instagram-ready images
+        run: python tools/build_instagram_posts.py
+
+      - name: Create zip
+        run: zip -r Jonghoon_Ahn_Instagram_Portfolio_Ready.zip instagram_ready
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: jonghoon-instagram-portfolio-ready
+          path: |
+            instagram_ready/
+            Jonghoon_Ahn_Instagram_Portfolio_Ready.zip
+          if-no-files-found: error
+          retention-days: 30
