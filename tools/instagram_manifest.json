@@ -20,7 +20,7 @@
   {"title":"The Nature of Manpasikjeok","detail":"detail_pages/media_4.html","cover":"assets/images/media4.jpg","category":"Public Media Art"},
   {"title":"Seon-a's Family","detail":"detail_pages/media_5.html","cover":"assets/images/media5.jpg","category":"Narrative Media Art"},
   {"title":"Nature Human","detail":"detail_pages/media_7.html","cover":"assets/images/media7.jpg","category":"Posthumanism · 2050"},
-  {"title":"Shininho – Digital Human","detail":"detail_pages/media_8.html","cover":"assets/images/media8.png","category":"Digital Human · UE5 · Maya"},
+  {"title":"Shininho – Digital Human","detail":"detail_pages/media_8.html","cover":"assets/images/Sin12.png","local_assets":["assets/images/sin2.jpg","assets/images/sin3.png","assets/images/sin5.png","assets/images/sin6.png","assets/images/sinm.png"],"category":"Digital Human · UE5 · Maya"},
   {"title":"Fineo, Translated Universe","detail":"detail_pages/xr_1.html","cover":"assets/images/xr1.jpg","category":"VR"},
   {"title":"Escape Metro","detail":"detail_pages/xr_4.html","cover":"assets/images/xr4.jpg","category":"VR Escape Game · AI NPC"},
   {"title":"NARCI","detail":"detail_pages/xr_2.html","cover":"assets/images/xr2.jpg","category":"VR · Psychology"},
