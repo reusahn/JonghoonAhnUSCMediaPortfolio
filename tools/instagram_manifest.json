@@ -27,10 +27,10 @@
   {"title":"Be NARCI","detail":"detail_pages/xr_3.html","cover":"assets/images/xr3.jpg","category":"VR · Role Reversal"},
   {"title":"Graffiti Freedom","detail":"detail_pages/xr_5.html","cover":"assets/images/xr5.jpg","category":"VR · Public Space"},
   {"title":"FX Portfolio 1","detail":"detail_pages/vfx_1.html","cover":"assets/images/vfx2.jpg","category":"Digital Humans · Simulation · Real-time VFX"},
-  {"title":"Row, Row, Row Your Boat","category":"Multi-Character Digital Humans","remote_page":"https://jonghoonahn.com/Project20/row-row-row-your-boat.html","remote_assets":["https://jonghoonahn.com/media/row/01_ten_face_grid.jpg","https://jonghoonahn.com/media/row/hero_10_faces.jpg","https://vumbnail.com/1219079996.jpg"]},
-  {"title":"When It Seen","category":"Performance Capture · Unreal → Houdini","remote_page":"https://jonghoonahn.com/Project20/when-it-seen.html","remote_assets":["https://vumbnail.com/1219183858.jpg"]},
+  {"title":"Row, Row, Row Your Boat","category":"Multi-Character Digital Humans","remote_page":"https://jonghoonahn.com/Project20/row-row-row-your-boat.html","remote_assets":["https://jonghoonahn.com/media/row/01_ten_face_grid.jpg","https://jonghoonahn.com/media/row/hero_10_faces.jpg"]},
+  {"title":"When It Seen","category":"Performance Capture · Unreal → Houdini","local_assets":[".instagram_video_frames/when-it-seen_01.jpg",".instagram_video_frames/when-it-seen_02.jpg",".instagram_video_frames/when-it-seen_03.jpg"]},
   {"title":"Yaloo Digital Human","category":"Digital Human · Age States","remote_page":"https://jonghoonahn.com/projects2/yaloo.html","remote_assets":["https://jonghoonahn.com/media/yaloo/00_hero_installation.jpg","https://jonghoonahn.com/media/yaloo/hero_age_states.jpg"]},
-  {"title":"The Way To Be Oneself","category":"Experimental AI Film","remote_page":"https://jonghoonahn.com/Project20/the-way-to-be-oneself.html","remote_assets":["https://vumbnail.com/1143335967.jpg"]},
-  {"title":"Jooan - VR Spatial Feedback & Comfort","category":"VR · Spatial Feedback · Comfort","remote_page":"https://jonghoonahn.com/Project22/shininho-jooan.html","remote_assets":["https://vumbnail.com/1219693160.jpg","https://vumbnail.com/1218744311.jpg"]},
-  {"title":"Android Delivery & RenderDoc Workflow","category":"Runtime Profiling · Deployment","local_assets":["assets/images/interactive3_1.jpg","assets/images/interactive1_1.jpg","assets/images/xr2.jpg"]}
+  {"title":"The Way To Be Oneself","category":"Experimental AI Film","local_assets":[".instagram_video_frames/the-way-to-be-oneself_01.jpg",".instagram_video_frames/the-way-to-be-oneself_02.jpg",".instagram_video_frames/the-way-to-be-oneself_03.jpg"]},
+  {"title":"Jooan - VR Spatial Feedback & Comfort","category":"VR · Spatial Feedback · Comfort","local_assets":[".instagram_video_frames/jooan_01.jpg",".instagram_video_frames/jooan_02.jpg",".instagram_video_frames/jooan_03.jpg"]},
+  {"title":"Android Delivery & RenderDoc Workflow","category":"Runtime Profiling · Deployment","local_assets":[".instagram_diagrams/android-renderdoc_01.png",".instagram_diagrams/android-renderdoc_02.png",".instagram_diagrams/android-renderdoc_03.png"]}
 ]
