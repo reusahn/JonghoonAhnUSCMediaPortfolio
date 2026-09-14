@@ -5,6 +5,7 @@ on:
     paths:
       - 'tools/instagram_manifest.json'
       - 'tools/build_instagram_posts.py'
+      - 'tools/prepare_instagram_extra_assets.py'
       - '.github/workflows/build_instagram_portfolio.yml'
   workflow_dispatch:
 
@@ -20,8 +21,11 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install Pillow
-        run: pip install pillow
+      - name: Install image and video tools
+        run: pip install pillow yt-dlp
+
+      - name: Prepare real video frames and technical diagrams
+        run: python tools/prepare_instagram_extra_assets.py
 
       - name: Build Instagram-ready images
         run: python tools/build_instagram_posts.py
